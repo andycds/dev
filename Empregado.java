@@ -9,7 +9,7 @@ public class Empregado {
 
     public double calcularSalario() {
         if (tipo == 1) {
-            return salario;
+            return salario * 1.1;
         } else if (tipo == 2) {
             return salario + salario * comissao;
         } else if (tipo == 3) {
